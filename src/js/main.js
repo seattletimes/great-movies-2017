@@ -13,9 +13,9 @@ var modalTemplate = dot.compile(require("./_modal.html"));
 
 var noop = function() {};
 
-var appElement = document.querySelector(".app");
+var appElement = $.one(".app");
 appElement.classList.add("boot");
-var listingElement = document.querySelector(".listings");
+var listingElement = $.one(".listings");
 
 var categories = {};
 var years = {};
@@ -29,7 +29,6 @@ var items = $(".item", appElement).map(function(b, index) {
       data[attr.name.replace("data-", "")] = attr.value;
     }
   }
-  console.log(data);
 
   $("[data-bound]", b).forEach(function(el) {
     var key = el.getAttribute("data-bound");
@@ -63,16 +62,19 @@ var createFilterElements = function(c) {
   </li>`
 };
 
-var catFilter = document.querySelector(".filters ul.category");
-catFilter.innerHTML = Object.keys(categories).sort().map(createFilterElements.bind(categories)).join("");
+var createFilter = function(selector, hash) {
+  var filter = $.one(`.filters ul.${selector}`);
+  filter.innerHTML = Object.keys(hash).sort().map(createFilterElements.bind(hash)).join("");
+  return filter;
+}
 
-var yearFilter = document.querySelector(".filters ul.year");
-yearFilter.innerHTML = Object.keys(years).sort().reverse().map(createFilterElements.bind(years)).join("");
+var catFilter = createFilter("category", categories);
 
-var ratingFilter = document.querySelector(".filters ul.rating");
-ratingFilter.innerHTML = Object.keys(ratings).sort().reverse().map(createFilterElements.bind(ratings)).join("");
+var yearFilter = createFilter("year", years);
 
-var filterElement = document.querySelector(".filters");
+var ratingFilter = createFilter("rating", ratings);
+
+var filterElement = $.one(".filters");
 
 var itemCache = [];
 
@@ -138,7 +140,7 @@ var runFilters = function(e) {
 filterElement.addEventListener("change", runFilters);
 runFilters();
 
-var modalContent = document.querySelector(".modal .content");
+var modalContent = $.one(".modal .content");
 var modalID = null;
 
 var showModal = function(item) {
@@ -148,7 +150,7 @@ var showModal = function(item) {
   var reflow = appElement.offsetWidth;
   appElement.classList.remove("transition-modal");
   // if (window.innerWidth > 768) animateScroll(appElement);
-}
+};
 
 var clickitem = function(e) {
   var id = this.getAttribute("data-index");
