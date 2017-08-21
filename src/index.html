@@ -6,9 +6,107 @@
   </head>
   <body>
 
-    <responsive-child>
-      <!-- content goes here -->
-    </responsive-child>
+    <%= t.include("partials/_nav.html") %>
+
+    <%= t.include("partials/_ad.html", { type: "banner" }) %>
+
+    <header class="constrained">
+      <h1>Great flicks</h1>
+      <h2>An interactive guide to The Seattle Times' best movie recommendations from the past few years.</h2>
+    </header>
+
+    <main class="app constrained">
+
+      <input type="checkbox" id="show-filters">
+      <label class="show-filters" for="show-filters">filters</label>
+      <div class="filters">
+        <h2>Rating</h2>
+        <ul class="rating"></ul>
+        <h2>Genre</h2>
+        <ul class="category"></ul>
+        <h2>Year</h2>
+        <ul class="year"></ul>
+      </div>
+
+      <section class="listings">
+      <% json.movies.sort(function(a, b) { return a.title < b.title ? -1 : 1 }).forEach(function(item) { %>
+        <div class="item"
+          data-genre="<%= item.genre %>"
+          data-local="<%= item.local %>"
+          data-link="<%= item.link %>"
+          data-rating="<%= item.mpaa %>"
+        >
+          <div class="wrapper">
+
+            <img class="cover" src="./assets/Posters/<%= item.poster %>.jpg">
+
+            <div class="details primary">
+              <h2 data-bound="title" class="title"><%= item.title %></h2>
+              <h3 data-bound="cast" class="cast"><%= item.starring %></h3>
+
+              <div class="meta">
+                <span data-bound="year"><%= item.year %></span> - <%= item.genre.replace(/; /g, ", ") %>
+              </div>
+
+              <a class="expand-item">Show more</a>
+            </div>
+          </div>
+
+          <div class="details secondary">
+
+            <p data-bound="description" class="blurb"><%= item.description %></p>
+
+            <a class="review-link" href="<%= item.link %>" target="_blank">Read full review</a>
+
+          </div>
+
+        </div>
+      <% }) %>
+        <div class="no-results">
+          No results found
+        </div>
+      </section>
+
+      <aside class="modal">
+        <div class="backdrop"></div>
+        <div class="frame">
+          <a class="close-modal">&times;</a>
+          <div class="content"></div>
+          <nav class="stepper">
+            <a class="previous in sequence">&larr; previous</a>
+            <a class="next in sequence">next &rarr;</a>
+          </nav>
+        </div>
+      </aside>
+
+    </main>
+
+    <ul class="credits constrained">
+      <li> Developed by: Thomas Wilburn and Shirley Qiu
+      <li> Additional research: Mary Ann Gwinn
+    </ul>
+
+    <footer class="constrained">
+      <%= t.include("partials/_dontMiss.html", { data: [{
+        link: "http://www.seattletimes.com/entertainment/books/bill-gates-names-his-five-favorite-books-of-2016/",
+        image: "teasers/gates.jpg",
+        head: "Bill Gates names his five favorite books of 2016"
+      }, {
+        link: "http://www.seattletimes.com/entertainment/books/gift-these-12-paperbacks-to-yourself/",
+        image: "teasers/gifts.jpg",
+        head: "Gift these 12 paperbacks to yourself"
+      }, {
+        link: "http://www.seattletimes.com/entertainment/books/the-king-county-library-systems-five-top-books-of-2016/",
+        image: "teasers/king.jpg",
+        head: "The King County Library's five top books of 2016"
+      }, {
+        link: "http://www.seattletimes.com/entertainment/books/bookstores-old-and-new-add-to-thriving-indie-scene/",
+        image: "teasers/bookstores.jpg",
+        head: "Bookstores old and new add to thriving indie scene"
+      }]}) %>
+    </footer>
+
+    <%= t.include("partials/_navBottom.html") %>
 
     <script src="app.js" async></script>
     <% if (json.project.production) { %>

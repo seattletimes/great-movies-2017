@@ -58,14 +58,14 @@ module.exports = function(grunt) {
         key: key
       }, function(err, book) {
         if (err || !book) {
-          grunt.fail.warn("Unable to access book for " + key + ", is it 'published' in Sheets?");
+          grunt.fail.warn("Unable to access book for " + key + ", is it 'published' in Sheets?", err);
           return bookDone();
         }
         //download each worksheet
         async.each(book.worksheets, function(page, pageDone) {
           sheets.cells({ key: key, worksheet: page.id }, function(err, cells) {
             if (err) {
-              grunt.fail.warn("Couldn't load sheet " + page.id + " for " + book.title);
+              grunt.fail.warn("Couldn't load sheet " + page.id + " for " + book.title, err);
               return pageDone();
             }
             cells = cells.cells;

@@ -9,12 +9,12 @@
       "path": ""
     }
   },
-  "title": "",
+  "title": "Great movies 2017",
   "description": "",
   "url": "",
   "image": "assets/social.jpg",
-  "sheets": [],
+  "sheets": ["1IgG9VbX4ztHCJH_NcJPCrTUp1xXbDhNBqf8MStNg5Qc"],
   "standout": false,
-  "embedded": true,
+  "embedded": false,
   "production": false
 }

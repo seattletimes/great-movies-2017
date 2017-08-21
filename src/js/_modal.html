@@ -1,0 +1,13 @@
+<img src="<%= data.cover %>" class="cover">
+
+<h1><%= data.title %></h1>
+
+<h2 class="cast">Starring: <%= data.cast %></h2>
+
+<div class="meta">
+  <span data-bound="year"><%= data.year %></span> - <%= data.genre.join(", ") %> - Rated <%= data.rating %>
+</div>
+
+<p class="blurb"><%= data.description %></p>
+
+<a class="read-more" target="_blank" href="<%= data.link %>">Read full review &raquo;</a>
