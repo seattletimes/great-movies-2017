@@ -1,6 +1,7 @@
 [
   {
     "title": "12 Years a Slave",
+    "poster": "12-years-a-slave.jpg",
     "year": 2013,
     "stars": 4,
     "mpaa": "R",
@@ -13,6 +14,7 @@
   },
   {
     "title": "All Is Lost",
+    "poster": "all_is_lost.jpg",
     "year": 2013,
     "stars": 3.5,
     "mpaa": "PG-13",
@@ -26,6 +28,7 @@
   },
   {
     "title": "Amour",
+    "poster": "amour.jpg",
     "year": 2013,
     "stars": 4,
     "mpaa": "PG-13",
@@ -38,6 +41,7 @@
   },
   {
     "title": "Before Midnight",
+    "poster": "before-midnight.jpg",
     "year": 2013,
     "stars": 3.5,
     "mpaa": "R",
@@ -50,6 +54,7 @@
   },
   {
     "title": "Blue Jasmine",
+    "poster": "blue-jasmine.jpg",
     "year": 2013,
     "stars": 3.5,
     "mpaa": "PG-13",
@@ -62,6 +67,7 @@
   },
   {
     "title": "The Broken Circle Breakdown",
+    "poster": "broken-circle-breakdown.jpg",
     "year": 2013,
     "stars": 3.5,
     "mpaa": "NR",
@@ -74,6 +80,7 @@
   },
   {
     "title": "Captain Phillips",
+    "poster": "captain-phillips.jpg",
     "year": 2013,
     "stars": 3.5,
     "mpaa": "PG-13",
@@ -87,6 +94,7 @@
   },
   {
     "title": "The East",
+    "poster": "east.jpg",
     "year": 2013,
     "stars": 4,
     "mpaa": "PG-13",
@@ -99,6 +107,7 @@
   },
   {
     "title": "Fruitvale Station",
+    "poster": "fruitvale_station.jpg",
     "year": 2013,
     "stars": 3.5,
     "mpaa": "R",
@@ -111,6 +120,7 @@
   },
   {
     "title": "Her",
+    "poster": "her.jpg",
     "year": 2013,
     "stars": 4,
     "mpaa": "R",
@@ -124,6 +134,7 @@
   },
   {
     "title": "The Hunt",
+    "poster": "hunt-the.jpg",
     "year": 2013,
     "stars": 3.5,
     "mpaa": "R",
@@ -136,6 +147,7 @@
   },
   {
     "title": "In the House",
+    "poster": "in-the-house.jpg",
     "year": 2013,
     "stars": 3.5,
     "mpaa": "R",
@@ -147,6 +159,7 @@
   },
   {
     "title": "Inside Llewyn Davis",
+    "poster": "inside_llewyn_davis.jpg",
     "year": 2013,
     "stars": 3.5,
     "mpaa": "R",
@@ -160,6 +173,7 @@
   },
   {
     "title": "Nebraska",
+    "poster": "nebraska.jpg",
     "year": 2013,
     "stars": 3.5,
     "mpaa": "R",
@@ -173,6 +187,7 @@
   },
   {
     "title": "Philomena",
+    "poster": "philomena.jpg",
     "year": 2013,
     "stars": 4,
     "mpaa": "PG-13",
@@ -186,6 +201,7 @@
   },
   {
     "title": "Prisoners",
+    "poster": "prisoners.jpg",
     "year": 2013,
     "stars": 3.5,
     "mpaa": "PG-13",
@@ -199,6 +215,7 @@
   },
   {
     "title": "Rust and Bone",
+    "poster": "rust_and_bone.jpg",
     "year": 2013,
     "stars": 3.5,
     "mpaa": "R",
@@ -211,6 +228,7 @@
   },
   {
     "title": "The Spectacular Now",
+    "poster": "spectacular_now.jpg",
     "year": 2013,
     "stars": 3.5,
     "mpaa": "R",
@@ -223,6 +241,7 @@
   },
   {
     "title": "Still Mine",
+    "poster": "still.jpg",
     "year": 2013,
     "stars": 3.5,
     "mpaa": "PG-13",
@@ -235,6 +254,7 @@
   },
   {
     "title": "What Maisie Knew",
+    "poster": "what_maisie_knew.jpg",
     "year": 2013,
     "stars": 3.5,
     "mpaa": "R",
@@ -247,6 +267,7 @@
   },
   {
     "title": "Zero Dark Thirty",
+    "poster": "zero_dark_thirty.jpg",
     "year": 2013,
     "stars": 3.5,
     "mpaa": "R",
@@ -259,6 +280,7 @@
   },
   {
     "title": "American Hustle",
+    "poster": "american_hustle.jpg",
     "year": 2013,
     "stars": 3.5,
     "mpaa": "R",
@@ -272,6 +294,7 @@
   },
   {
     "title": "Enough Said",
+    "poster": "enough-said.jpg",
     "year": 2013,
     "stars": 3.5,
     "mpaa": "R",
@@ -285,6 +308,7 @@
   },
   {
     "title": "Much Ado About Nothing",
+    "poster": "much_ado_about_nothing.jpg",
     "year": 2013,
     "stars": 3.5,
     "mpaa": "PG-13",
@@ -297,6 +321,7 @@
   },
   {
     "title": "The Way, Way Back",
+    "poster": "way_way_back.jpg",
     "year": 2013,
     "stars": 3.5,
     "mpaa": "PG-13",
@@ -309,6 +334,7 @@
   },
   {
     "title": "56 Up",
+    "poster": "56-up.jpg",
     "year": 2013,
     "stars": 4,
     "mpaa": "NR",
@@ -321,6 +347,7 @@
   },
   {
     "title": "The Act of Killing",
+    "poster": "act-of-killing.jpg",
     "year": 2013,
     "stars": 4,
     "mpaa": "NR",
@@ -333,6 +360,7 @@
   },
   {
     "title": "At Berkeley",
+    "poster": "at-berkeley.jpg",
     "year": 2013,
     "stars": 3.5,
     "mpaa": "NR",
@@ -346,6 +374,7 @@
   },
   {
     "title": "Cutie and the Boxer",
+    "poster": "cutie-and-the-boxer.jpg",
     "year": 2013,
     "stars": 3.5,
     "mpaa": "R",
@@ -357,6 +386,7 @@
   },
   {
     "title": "Deceptive Practices: The Mysteries and Mentors of Ricky Jay",
+    "poster": "deceptive-practices.jpg",
     "year": 2013,
     "stars": 3.5,
     "mpaa": "NR",
@@ -369,6 +399,7 @@
   },
   {
     "title": "Dirty Wars",
+    "poster": "dirty-wars.jpg",
     "year": 2013,
     "stars": 3.5,
     "mpaa": "NR",
@@ -379,6 +410,7 @@
   },
   {
     "title": "Good Ol' Freda",
+    "poster": "good_ol_freda.jpg",
     "year": 2013,
     "stars": 3.5,
     "mpaa": "PG",
@@ -389,6 +421,7 @@
   },
   {
     "title": "Muscle Shoals",
+    "poster": "muscle_shoals.jpg",
     "year": 2013,
     "stars": 4,
     "mpaa": "PG",
@@ -399,6 +432,7 @@
   },
   {
     "title": "Stories We Tell",
+    "poster": "stories_we_tell.jpg",
     "year": 2013,
     "stars": 3.5,
     "mpaa": "PG-13",
@@ -411,6 +445,7 @@
   },
   {
     "title": "Wagner & Me",
+    "poster": "wagner-and-me.jpg",
     "year": 2013,
     "stars": 3.5,
     "mpaa": "NR",
@@ -423,6 +458,7 @@
   },
   {
     "title": "The Waiting Room",
+    "poster": "the-waiting-room.jpg",
     "year": 2013,
     "stars": 3.5,
     "mpaa": "NR",
@@ -434,6 +470,7 @@
   },
   {
     "title": "We Steal Secrets: The Story of Wikileaks",
+    "poster": "we_steal_secrets.jpg",
     "year": 2013,
     "stars": 3.5,
     "mpaa": "R",
@@ -446,6 +483,7 @@
   },
   {
     "title": "The Conjuring",
+    "poster": "conjuring.jpg",
     "year": 2013,
     "stars": 3.5,
     "mpaa": "R",
@@ -458,6 +496,7 @@
   },
   {
     "title": "The Invisible Woman",
+    "poster": "invisible_woman.jpg",
     "year": 2014,
     "stars": 3.5,
     "mpaa": "R",
@@ -469,9 +508,10 @@
   },
   {
     "title": "Like Father, Like Son",
+    "poster": "like-father-like-son.jpg",
     "year": 2014,
     "stars": 3.5,
-    "mpaa": "Unrated",
+    "mpaa": "NR",
     "length": 130,
     "genre": "Drama",
     "description": "A gentle, nuanced drama from Japan, in which two families cope with the news that their six-year-old sons were switched at birth.\n",
@@ -480,6 +520,7 @@
   },
   {
     "title": "Tim's Vermeer",
+    "poster": "tims_vermeer.jpg",
     "year": 2014,
     "stars": 3.5,
     "mpaa": "PG-13",
@@ -491,6 +532,7 @@
   },
   {
     "title": "The Grand Budapest Hotel",
+    "poster": "grand_budapest_hotel.jpg",
     "year": 2014,
     "stars": 3.5,
     "mpaa": "R",
@@ -503,6 +545,7 @@
   },
   {
     "title": "A Birder's Guide to Everything",
+    "poster": "birders-guide-to-everything.jpg",
     "year": 2014,
     "stars": 3.5,
     "mpaa": "PG-13",
@@ -513,6 +556,7 @@
   },
   {
     "title": "Captain America: The Winter Soldier",
+    "poster": "captain-america-the-winter-soldier.jpg",
     "year": 2014,
     "stars": 3.5,
     "mpaa": "PG-13",
@@ -525,6 +569,7 @@
   },
   {
     "title": "Under the Skin",
+    "poster": "under_the_skin.jpg",
     "year": 2014,
     "stars": 3.5,
     "mpaa": "R",
@@ -537,9 +582,10 @@
   },
   {
     "title": "Finding Vivian Maier",
+    "poster": "finding_vivian_maier.jpg",
     "year": 2014,
     "stars": 3.5,
-    "mpaa": "Unrated",
+    "mpaa": "NR",
     "length": 88,
     "genre": "Documentary",
     "description": "An engaging unravelling of a real-life mystery: the photographs left behind by a Chicago street photographer.",
@@ -547,6 +593,7 @@
   },
   {
     "title": "Locke",
+    "poster": "locke.jpg",
     "year": 2014,
     "stars": 3.5,
     "mpaa": "R",
@@ -559,6 +606,7 @@
   },
   {
     "title": "Belle",
+    "poster": "belle.jpg",
     "year": 2014,
     "mpaa": "PG",
     "length": 105,
@@ -570,6 +618,7 @@
   },
   {
     "title": "How to Train Your Dragon 2",
+    "poster": "how_to_train_your_dragon_two.jpg",
     "year": 2014,
     "stars": 3.5,
     "mpaa": "PG",
@@ -580,6 +629,7 @@
   },
   {
     "title": "Life Itself",
+    "poster": "life_itself.jpg",
     "year": 2014,
     "stars": 4,
     "mpaa": "R",
@@ -592,9 +642,10 @@
   },
   {
     "title": "Violette",
+    "poster": "violette.jpg",
     "year": 2014,
     "stars": 3.5,
-    "mpaa": "Unrated",
+    "mpaa": "NR",
     "length": 138,
     "genre": "Drama",
     "description": "This impressionist biopic about French novelist Violette Leduc (Emmanuelle Devos) unfolds like a novel; divided into numbered and titled chapters and adding up to a satisfying whole. ",
@@ -603,6 +654,7 @@
   },
   {
     "title": "Boyhood",
+    "poster": "boyhood.jpg",
     "year": 2014,
     "stars": 4,
     "mpaa": "R",
@@ -615,6 +667,7 @@
   },
   {
     "title": "Guardians of the Galaxy",
+    "poster": "guardians_of_the_galaxy.jpg",
     "year": 2014,
     "stars": 3.5,
     "mpaa": "PG-13",
@@ -626,6 +679,7 @@
   },
   {
     "title": "Get On Up",
+    "poster": "get_on_up.jpg",
     "year": 2014,
     "stars": 3.5,
     "mpaa": "PG-13",
@@ -637,9 +691,10 @@
   },
   {
     "title": "Mood Indigo",
+    "poster": "mood-indigo.jpg",
     "year": 2014,
     "stars": 3.5,
-    "mpaa": "Unrated",
+    "mpaa": "NR",
     "length": 94,
     "genre": "Comedy",
     "description": "Watching this whimsical French love story, you marvel at how no one makes movies quite like Michel Gondry (“Eternal Sunshine of the Spotless Mind,” “Human Nature”) — and at how a dash of curlicued surrealism somehow makes the real world, in all its staidness, a happier  place. ",
@@ -648,6 +703,7 @@
   },
   {
     "title": "Calvary",
+    "poster": "calvary.jpg",
     "year": 2014,
     "stars": 3.5,
     "mpaa": "R",
@@ -660,6 +716,7 @@
   },
   {
     "title": "Love Is Strange",
+    "poster": "love_is_strange.jpg",
     "year": 2014,
     "stars": 3.5,
     "mpaa": "R",
@@ -672,6 +729,7 @@
   },
   {
     "title": "Gone Girl",
+    "poster": "gone_girl.jpg",
     "year": 2014,
     "stars": 3.5,
     "mpaa": "R",
@@ -683,6 +741,7 @@
   },
   {
     "title": "Dear White People",
+    "poster": "dear-white-people.jpg",
     "year": 2014,
     "stars": 3.5,
     "mpaa": "R",
@@ -695,6 +754,7 @@
   },
   {
     "title": "Birdman",
+    "poster": "birdman.jpg",
     "year": 2014,
     "stars": 4,
     "mpaa": "R",
@@ -707,6 +767,7 @@
   },
   {
     "title": "The Imitation Game",
+    "poster": "imitation_game.jpg",
     "year": 2014,
     "stars": 3.5,
     "mpaa": "PG-13",
@@ -719,6 +780,7 @@
   },
   {
     "title": "Selma",
+    "poster": "selma.jpg",
     "year": 2014,
     "stars": 4,
     "mpaa": "PG-13",
@@ -731,6 +793,7 @@
   },
   {
     "title": "Mr. Turner",
+    "poster": "mr-turner.jpg",
     "year": 2014,
     "stars": 3.5,
     "mpaa": "R",
@@ -755,6 +818,7 @@
   },
   {
     "title": "Ex Machina",
+    "poster": "ex-machina.jpg",
     "year": 2015,
     "stars": 4,
     "mpaa": "R",
@@ -767,6 +831,7 @@
   },
   {
     "title": "Far From the Madding Crowd",
+    "poster": "far_from_the_madding_crowd.jpg",
     "year": 2015,
     "stars": 3.5,
     "mpaa": "PG-13",
@@ -779,6 +844,7 @@
   },
   {
     "title": "Mad Max: Fury Road",
+    "poster": "mad_max_fury_road.jpg",
     "year": 2015,
     "stars": 4,
     "mpaa": "R",
@@ -791,6 +857,7 @@
   },
   {
     "title": "Love & Mercy",
+    "poster": "love_and_mercy.jpg",
     "year": 2015,
     "stars": 4,
     "mpaa": "PG-13",
@@ -803,6 +870,7 @@
   },
   {
     "title": "Inside Out",
+    "poster": "inside_out.jpg",
     "year": 2015,
     "stars": 4,
     "mpaa": "PG",
@@ -815,6 +883,7 @@
   },
   {
     "title": "Me and Earl and the Dying Girl",
+    "poster": "me_and_earl_and_the_dying_girl.jpg",
     "year": 2015,
     "stars": 3.5,
     "mpaa": "PG-13",
@@ -826,6 +895,7 @@
   },
   {
     "title": "Testament of Youth",
+    "poster": "testament_of_youth.jpg",
     "year": 2015,
     "stars": 3.5,
     "mpaa": "PG-13",
@@ -838,6 +908,7 @@
   },
   {
     "title": "Amy",
+    "poster": "amy.jpg",
     "year": 2015,
     "stars": 3.5,
     "mpaa": "R",
@@ -850,6 +921,7 @@
   },
   {
     "title": "Shaun the Sheep Movie",
+    "poster": "shaun_the_sheep.jpg",
     "year": 2015,
     "stars": 3.5,
     "mpaa": "PG",
@@ -861,6 +933,7 @@
   },
   {
     "title": "The End of the Tour",
+    "poster": "end-of-the-tour.jpg",
     "year": 2015,
     "stars": 3.5,
     "mpaa": "R",
@@ -873,6 +946,7 @@
   },
   {
     "title": "The Diary of a Teenage Girl",
+    "poster": "diary-of-a-teenage-girl.jpg",
     "year": 2015,
     "stars": 3.5,
     "mpaa": "R",
@@ -885,6 +959,7 @@
   },
   {
     "title": "Learning to Drive",
+    "poster": "learning_to_drive.jpg",
     "year": 2015,
     "stars": 3.5,
     "mpaa": "R",
@@ -897,6 +972,7 @@
   },
   {
     "title": "Grandma",
+    "poster": "grandma.jpg",
     "year": 2015,
     "stars": 3.5,
     "mpaa": "R",
@@ -909,6 +985,7 @@
   },
   {
     "title": "Pawn Sacrifice",
+    "poster": "pawn_sacrifice.jpg",
     "year": 2015,
     "stars": 3.5,
     "mpaa": "PG-13",
@@ -920,6 +997,7 @@
   },
   {
     "title": "Goodnight Mommy",
+    "poster": "goodnight-mommy.jpg",
     "year": 2015,
     "stars": 4,
     "mpaa": "R",
@@ -931,6 +1009,7 @@
   },
   {
     "title": "Sicario",
+    "poster": "sicario.jpg",
     "year": 2015,
     "stars": 3.5,
     "mpaa": "R",
@@ -943,6 +1022,7 @@
   },
   {
     "title": "99 Homes",
+    "poster": "ninenine_homes.jpg",
     "year": 2015,
     "stars": 3.5,
     "mpaa": "R ",
@@ -955,6 +1035,7 @@
   },
   {
     "title": "He Named Me Malala",
+    "poster": "he_named_me_malala.jpg",
     "year": 2015,
     "stars": 4,
     "mpaa": "PG-13",
@@ -967,6 +1048,7 @@
   },
   {
     "title": "Bridge of Spies",
+    "poster": "bridge-of-spies.jpg",
     "year": 2015,
     "stars": 3.5,
     "mpaa": "PG-13",
@@ -979,6 +1061,7 @@
   },
   {
     "title": "Steve Jobs",
+    "poster": "steve_jobs.jpg",
     "year": 2015,
     "stars": 4,
     "mpaa": "R",
@@ -991,6 +1074,7 @@
   },
   {
     "title": "Room",
+    "poster": "room.jpg",
     "year": 2015,
     "stars": 3.5,
     "mpaa": "R",
@@ -1004,6 +1088,7 @@
   },
   {
     "title": "Spotlight",
+    "poster": "spotlight.jpg",
     "year": 2015,
     "stars": 4,
     "mpaa": "R",
@@ -1017,6 +1102,7 @@
   },
   {
     "title": "Brooklyn",
+    "poster": "brooklyn.jpg",
     "year": 2015,
     "stars": 4,
     "mpaa": "PG-13",
@@ -1030,6 +1116,7 @@
   },
   {
     "title": "Chi-Raq",
+    "poster": "chiraq.jpg",
     "year": 2015,
     "stars": 4,
     "mpaa": "R",
@@ -1043,6 +1130,7 @@
   },
   {
     "title": "Macbeth",
+    "poster": "macbeth.jpg",
     "year": 2015,
     "stars": 3.5,
     "mpaa": "R",
@@ -1056,6 +1144,7 @@
   },
   {
     "title": "The Big Short",
+    "poster": "big-short.jpg",
     "year": 2015,
     "stars": 3.5,
     "mpaa": "R",
@@ -1069,6 +1158,7 @@
   },
   {
     "title": "Carol",
+    "poster": "carol.jpg",
     "year": 2015,
     "stars": 4,
     "mpaa": "R",
@@ -1082,6 +1172,7 @@
   },
   {
     "title": "The Revenant",
+    "poster": "revenant.jpg",
     "year": 2015,
     "stars": 4,
     "mpaa": "R",
@@ -1094,6 +1185,7 @@
   },
   {
     "title": "Anomalisa",
+    "poster": "anomalisa.jpg",
     "year": 2015,
     "stars": 3.5,
     "mpaa": "R",
@@ -1107,6 +1199,7 @@
   },
   {
     "title": "Kung Fu Panda 3",
+    "poster": "kung_fu_panda_three.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "PG",
@@ -1120,6 +1213,7 @@
   },
   {
     "title": "45 Years",
+    "poster": "45_years.jpg",
     "year": 2015,
     "stars": 4,
     "mpaa": "R",
@@ -1133,6 +1227,7 @@
   },
   {
     "title": "The Witch",
+    "poster": "witch.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "R",
@@ -1145,6 +1240,7 @@
   },
   {
     "title": "Zootopia",
+    "poster": "zootopia.jpg",
     "year": 2016,
     "stars": 4,
     "mpaa": "PG",
@@ -1157,6 +1253,7 @@
   },
   {
     "title": "Midnight Special",
+    "poster": "midnight_special.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "PG-13",
@@ -1170,6 +1267,7 @@
   },
   {
     "title": "Everybody Wants Some !!",
+    "poster": "everybody-wants-some.jpg",
     "year": 2016,
     "stars": 4,
     "mpaa": "R",
@@ -1196,6 +1294,7 @@
   },
   {
     "title": "The Meddler",
+    "poster": "meddler.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "PG-13",
@@ -1209,6 +1308,7 @@
   },
   {
     "title": "Love & Friendship",
+    "poster": "love_and_friendship.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "PG-13",
@@ -1222,6 +1322,7 @@
   },
   {
     "title": "Dark Horse",
+    "poster": "dark-horse.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "PG-13",
@@ -1234,6 +1335,7 @@
   },
   {
     "title": "Weiner",
+    "poster": "weiner.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "R",
@@ -1247,6 +1349,7 @@
   },
   {
     "title": "Maggie's Plan",
+    "poster": "maggies_plan.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "R",
@@ -1260,6 +1363,7 @@
   },
   {
     "title": "Finding Dory",
+    "poster": "finding_dory.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "PG",
@@ -1273,6 +1377,7 @@
   },
   {
     "title": "Sunset Song",
+    "poster": "sunset_song.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "R",
@@ -1285,6 +1390,7 @@
   },
   {
     "title": "Swiss Army Man",
+    "poster": "swiss_army_man.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "R",
@@ -1298,6 +1404,7 @@
   },
   {
     "title": "Hunt for the Wilderpeople",
+    "poster": "hunt_for_the_wilderpeople.jpg",
     "year": 2016,
     "stars": 4,
     "mpaa": "PG-13",
@@ -1311,6 +1418,7 @@
   },
   {
     "title": "The Fits",
+    "poster": "fits.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "NR",
@@ -1324,6 +1432,7 @@
   },
   {
     "title": "Captain Fantastic",
+    "poster": "captain-fantastic.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "R",
@@ -1337,6 +1446,7 @@
   },
   {
     "title": "Life, Animated",
+    "poster": "life_animated.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "PG",
@@ -1350,6 +1460,7 @@
   },
   {
     "title": "Gleason\n",
+    "poster": "gleason.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "R",
@@ -1363,6 +1474,7 @@
   },
   {
     "title": "The Innocents",
+    "poster": "the-innocents.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "PG-13",
@@ -1376,6 +1488,7 @@
   },
   {
     "title": "Don't Think Twice",
+    "poster": "dont-think-twice.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "R",
@@ -1389,6 +1502,7 @@
   },
   {
     "title": "Hell or High Water",
+    "poster": "hell_or_high_water.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "R",
@@ -1402,6 +1516,7 @@
   },
   {
     "title": "Our Little Sister",
+    "poster": "our-little-sister.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "PG",
@@ -1415,6 +1530,7 @@
   },
   {
     "title": "Kubo and the Two Strings",
+    "poster": "kubo_and_the_two_strings.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "PG",
@@ -1428,6 +1544,7 @@
   },
   {
     "title": "Little Men",
+    "poster": "little_men.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "PG",
@@ -1441,6 +1558,7 @@
   },
   {
     "title": "Hands of Stone",
+    "poster": "hands_of_stone.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "R",
@@ -1467,6 +1585,7 @@
   },
   {
     "title": "Sully",
+    "poster": "sully.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "PG-13",
@@ -1480,6 +1599,7 @@
   },
   {
     "title": "Eight Days a Week",
+    "poster": "eight-days-a-week.jpg",
     "year": 2016,
     "stars": 4,
     "mpaa": "NR",
@@ -1493,6 +1613,7 @@
   },
   {
     "title": "Queen of Katwe",
+    "poster": "queen_of_katwe.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "PG",
@@ -1506,6 +1627,7 @@
   },
   {
     "title": "Certain Women",
+    "poster": "certain-women.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "R",
@@ -1519,6 +1641,7 @@
   },
   {
     "title": "Tower",
+    "poster": "tower.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "NR",
@@ -1532,6 +1655,7 @@
   },
   {
     "title": "The Handmaiden",
+    "poster": "the-handmaiden.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "NR",
@@ -1545,6 +1669,7 @@
   },
   {
     "title": "Moonlight",
+    "poster": "moonlight.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "R",
@@ -1558,6 +1683,7 @@
   },
   {
     "title": "Christine",
+    "poster": "christine.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "R",
@@ -1571,6 +1697,7 @@
   },
   {
     "title": "Arrival",
+    "poster": "arrival.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "PG-13",
@@ -1584,6 +1711,7 @@
   },
   {
     "title": "Loving",
+    "poster": "loving.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "PG-13",
@@ -1597,6 +1725,7 @@
   },
   {
     "title": "Moana",
+    "poster": "moana.jpg",
     "year": 2016,
     "stars": 4,
     "mpaa": "PG",
@@ -1610,6 +1739,7 @@
   },
   {
     "title": "Manchester by the Sea",
+    "poster": "manchester_by_the_sea.jpg",
     "year": 2016,
     "stars": 4,
     "mpaa": "R",
@@ -1623,6 +1753,7 @@
   },
   {
     "title": "La La Land",
+    "poster": "la_la_land.jpg",
     "year": 2016,
     "stars": 4,
     "mpaa": "PG-13",
@@ -1636,6 +1767,7 @@
   },
   {
     "title": "Jackie",
+    "poster": "jackie.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "R",
@@ -1649,6 +1781,7 @@
   },
   {
     "title": "Lion",
+    "poster": "lion.jpg",
     "year": 2016,
     "stars": 3.5,
     "mpaa": "PG-13",
@@ -1662,6 +1795,7 @@
   },
   {
     "title": "Fences",
+    "poster": "fences.jpg",
     "year": 2016,
     "stars": 4,
     "mpaa": "PG-13",

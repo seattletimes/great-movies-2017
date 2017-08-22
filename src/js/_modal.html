@@ -2,12 +2,34 @@
 
 <h1><%= data.title %></h1>
 
+<% if (data.cast) { %>
 <h2 class="cast">Starring: <%= data.cast %></h2>
+<% } %>
 
 <div class="meta">
-  <span data-bound="year"><%= data.year %></span> - <%= data.genre.join(", ") %> - Rated <%= data.rating %>
+  <div><span data-bound="year"><%= data.year %></span> - <%= data.genre.join(", ") %></div>
+  <div><%= data.length %> minutes</div>
+  <div>Rated <%= data.rating %></div>
 </div>
 
-<p class="blurb"><%= data.description %></p>
+<p class="blurb">
+  <%= data.description %>
+  <%
+    /* why yes, I will compute an SVG path in my template */
+    var coords = [];
+    for (var i = 0; i < 10; i++) {
+      var rads = i / 10 * Math.PI * 2 + Math.PI;
+      var distance = i % 2 ? 1 : 2;
+      coords.push([i ? "L" : "M", Math.sin(rads) * distance, Math.cos(rads) * distance].join(" "));
+    }
+    var half = coords.slice(0, 6).join(" ");
+    coords = coords.join(" ");
+  %>
+  <% for (var i = 0; i < data.review; i++) { %>
+    <svg class="star" viewBox="-2 -2 4 4">
+      <path d="<%= data.review - i >= 1 ? coords : half %> Z"></path>
+    </svg>
+  <% } %>
+</p>
 
 <a class="read-more" target="_blank" href="<%= data.link %>">Read full review &raquo;</a>

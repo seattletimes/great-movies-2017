@@ -178,7 +178,7 @@ input#show-filters {
   .flex(0 0 33%);
 
   .boot & {
-    .flex(0 0 33%);
+    .flex(0 0 25%);
   }
 
   @media @tablet {
@@ -389,11 +389,20 @@ input#show-filters {
     font-size: 18px;
   }
 
+  .star {
+    display: inline-block;
+    vertical-align: middle;
+    width: 18px;
+    height: 18px;
+  }
+
   a.read-more {
     text-align: right;
     display: block;
     text-transform: uppercase;
     font-family: @df-sans;
+    vertical-align: bottom;
+    line-height: 1;
   }
 
   .stepper {

@@ -26,13 +26,13 @@ var items = $(".item", appElement).map(function(b, index) {
   for (var i = 0; i < b.attributes.length; i++) {
     var attr = b.attributes[i];
     if (attr.name.match(/^data-/)) {
-      data[attr.name.replace("data-", "")] = attr.value;
+      data[attr.name.replace("data-", "")] = attr.value.trim();
     }
   }
 
   $("[data-bound]", b).forEach(function(el) {
     var key = el.getAttribute("data-bound");
-    data[key] = el.innerHTML;
+    data[key] = el.innerHTML.trim();
   });
 
   data.genre = data.genre.trim().split(/,\s*/);
@@ -96,24 +96,24 @@ var runFilters = function(e) {
 
   itemCache = [];
 
-  items.forEach(function(b) {
+  items.forEach(function(item) {
     var show = true;
-    if (cats.length && !cats.some(c => c in b.genres)) show = false;
-    if (years.length && years.indexOf(b.year) < 0) show = false;
-    if (ratings.length && ratings.indexOf(b.rating) < 0) show = false;
+    if (cats.length && !cats.some(c => c in item.genres)) show = false;
+    if (years.length && years.indexOf(item.year) < 0) show = false;
+    if (ratings.length && ratings.indexOf(item.rating) < 0) show = false;
 
-    b.element.classList.remove("animated");
-    var isVisible = !b.element.classList.contains("hidden");
+    item.element.classList.remove("animated");
+    var isVisible = !item.element.classList.contains("hidden");
     if (show) {
-      itemCache.push(b);
+      itemCache.push(item);
       found = true;
       if (isVisible) {
-        flipping.push(b);
+        flipping.push(item);
       } else {
-        b.element.classList.add("animated", "faded");
+        item.element.classList.add("animated", "faded");
       }
     }
-    b.element.classList[show ? "remove" : "add"]("hidden");
+    item.element.classList[show ? "remove" : "add"]("hidden");
   });
 
   if (!found) {
@@ -121,16 +121,16 @@ var runFilters = function(e) {
   } else {
     listingElement.classList.remove("empty");
     requestAnimationFrame(function() {
-      flipping.forEach(function(b) {
-        var bounds = b.element.getBoundingClientRect();
+      flipping.forEach(function(item) {
+        var bounds = item.element.getBoundingClientRect();
         var offset = {
-          x: b.first.left - bounds.left,
-          y: b.first.top - bounds.top
+          x: item.first.left - bounds.left,
+          y: item.first.top - bounds.top
         };
-        b.element.style.transform = `translate(${offset.x}px, ${offset.y}px)`;
-        var reflow = b.element.offsetWidth;
-        b.element.classList.add("animated");
-        b.element.style.transform = "";
+        item.element.style.transform = `translate(${offset.x}px, ${offset.y}px)`;
+        var reflow = item.element.offsetWidth;
+        item.element.classList.add("animated");
+        item.element.style.transform = "";
       });
       $(".faded").forEach(el => el.classList.remove("faded"));
     });
@@ -182,9 +182,8 @@ var itemSequence = function() {
   showModal(next);
 }
 
-items.forEach(function(b) {
-  b.element.addEventListener("click", clickitem);
-});
+items.forEach(item => item.element.addEventListener("click", clickitem));
+
 $(".close-modal, .modal .backdrop").forEach(el => el.addEventListener("click", closeModal));
 $(".modal .in.sequence").forEach(el => el.addEventListener("click", itemSequence));
 $(".expand-item").forEach(el => el.addEventListener("click", expandBlurb));
