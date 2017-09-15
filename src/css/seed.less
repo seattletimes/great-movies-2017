@@ -71,6 +71,11 @@ input#show-filters {
   font-size: 15px;
   padding-top: 16px;
 
+  display: none;
+  .boot & {
+    display: block;
+  }
+
   @media @tablet {
     display: none;
 
@@ -170,7 +175,6 @@ input#show-filters {
 }
 
 .item {
-  padding: 0 16px 24px;
   transform-origin: 0 0;
   transform: translate(0px, 0px);
   opacity: 1;
@@ -198,6 +202,8 @@ input#show-filters {
   }
 
   .wrapper {
+    padding: 0 16px 24px;
+    
     @media @tablet {
       .display-flex();
       .align-items(center);
