@@ -48,9 +48,11 @@
       }, 150);
     };
 
-    if (!intersectionCheck()) {
-      window.addEventListener("scroll", debounced);
-    }
+    setTimeout(function() {
+      if (!intersectionCheck()) {
+        window.addEventListener("scroll", debounced);
+      }
+    }, 500);
 
   });
 

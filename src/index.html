@@ -33,14 +33,14 @@
         <div class="item"
           data-genre="<%= item.genre %>"
           data-local="<%= item.local %>"
-          data-link="<%= item.link %>"
+          data-link="<%= item.url %>"
           data-rating="<%= item.mpaa %>"
           data-review="<%= item.stars %>"
           data-length="<%= item.length %>"
         >
           <div class="wrapper">
 
-            <img class="cover" src="./assets/Poster_resize/<%= item.poster %>">
+            <img class="cover" src="./assets/posters/<%= item.poster %>">
 
             <div class="details primary">
               <h2 data-bound="title" class="title"><%= item.title %></h2>
