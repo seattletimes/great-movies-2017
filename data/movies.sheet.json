@@ -2290,9 +2290,13 @@
     "title": "City of Ghosts",
     "poster": "city_of_ghosts.jpg",
     "year": 2017,
+    "stars": 4,
+    "mpaa": "R",
+    "length": 93,
     "genre": "documentary",
     "description": "In this timely, pressing and important documentary, Oscar-nominated director Matthew Heineman (“Cartel Land”) tells the story of Syrian citizen journalists taking on ISIS in their hometown. ",
-    "director": "Mathew Heineman"
+    "director": "Mathew Heineman",
+    "url": "https://www.seattletimes.com/entertainment/movies/siff-2017-highlights-of-the-film-festivals-second-week/"
   },
   {
     "title": "Lady Macbeth",
