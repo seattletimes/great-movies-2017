@@ -2,6 +2,10 @@
 
 <h1><%= data.title %></h1>
 
+<% if (data.director) { %>
+<h2 class="director">Directed by: <%= data.director %></h2>
+<% } %>
+
 <% if (data.cast) { %>
 <h2 class="cast">Starring: <%= data.cast %></h2>
 <% } %>

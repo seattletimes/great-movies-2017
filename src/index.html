@@ -11,6 +11,7 @@
     <%= t.include("partials/_ad.html", { type: "banner" }) %>
 
     <header class="constrained">
+      <img class="splash" src="./assets/splash.jpg">
       <h1>Great flicks</h1>
       <h2>An interactive guide to The Seattle Times' best movie recommendations from the past few years.</h2>
     </header>
@@ -44,6 +45,7 @@
 
             <div class="details primary">
               <h2 data-bound="title" class="title"><%= item.title %></h2>
+              <h3 data-bound="director" class="director"><%= item.director %></h3>
               <h3 data-bound="cast" class="cast"><%= item.starring %></h3>
 
               <div class="meta">

@@ -6,13 +6,13 @@
     },
     "live": {
       "bucket": "projects.seattletimes.com",
-      "path": ""
+      "path": "2017/great-movies"
     }
   },
   "title": "Great movies 2017",
-  "description": "",
-  "url": "",
-  "image": "assets/social.jpg",
+  "description": "An interactive guide to The Seattle Times' best movie recommendations from the past few years.",
+  "url": "https://projects.seattletimes.com/2017/great-movies/",
+  "image": "assets/splash.jpg",
   "sheets": ["1IgG9VbX4ztHCJH_NcJPCrTUp1xXbDhNBqf8MStNg5Qc"],
   "standout": false,
   "embedded": false,
