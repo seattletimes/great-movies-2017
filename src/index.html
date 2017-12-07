@@ -52,16 +52,19 @@
                 <span data-bound="year"><%= item.year %></span> - <%= item.genre.replace(/; /g, ", ") %>
               </div>
 
-              <a class="expand-item">Show more</a>
+              <button class="expand-item">Show more</button>
+              
+              
+              <div class="details secondary">
+
+                <p data-bound="description" class="blurb"><%= item.description %></p>
+
+                <% if (item.url) { %>
+                <a class="review-link" href="<%= item.url %>" target="_blank">Read full review</a>
+                <% } %>
+
+              </div>
             </div>
-          </div>
-
-          <div class="details secondary">
-
-            <p data-bound="description" class="blurb"><%= item.description %></p>
-
-            <a class="review-link" href="<%= item.link %>" target="_blank">Read full review</a>
-
           </div>
 
         </div>

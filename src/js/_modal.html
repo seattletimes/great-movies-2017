@@ -3,11 +3,11 @@
 <h1><%= data.title %></h1>
 
 <% if (data.director) { %>
-<h2 class="director">Directed by: <%= data.director %></h2>
+<h2 class="director">Directed by: <span class="names"><%= data.director %></span></h2>
 <% } %>
 
 <% if (data.cast) { %>
-<h2 class="cast">Starring: <%= data.cast %></h2>
+<h2 class="cast">Starring: <span class="names"><%= data.cast %></span></h2>
 <% } %>
 
 <div class="meta">
@@ -38,4 +38,6 @@
   </div>
 </p>
 
+<% if (data.link) { %>
 <a class="read-more" target="_blank" href="<%= data.link %>">Read full review &raquo;</a>
+<% } %>

@@ -232,7 +232,7 @@ input#show-filters {
     }
   }
 
-  .expand-book {
+  .expand-item {
     display: none;
     text-transform: uppercase;
     margin: 16px 0;
@@ -249,7 +249,7 @@ input#show-filters {
 
   @media @tablet {
     &.expanded {
-      .expand-book {
+      .expand-item {
         display: none;
       }
 
@@ -398,6 +398,12 @@ input#show-filters {
 
   .director, .cast {
     font-size: 18px;
+    font-weight: normal;
+
+    .names {
+      font-weight: bold;
+      display: block;
+    }
   }
 
   .star {
