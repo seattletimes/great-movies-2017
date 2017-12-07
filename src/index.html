@@ -11,8 +11,8 @@
     <%= t.include("partials/_ad.html", { type: "banner" }) %>
 
     <header class="constrained">
+      <h1>Great movies</h1>
       <img class="splash" src="./assets/splash.jpg">
-      <h1>Great flicks</h1>
       <h2>An interactive guide to The Seattle Times' best movie recommendations from the past few years.</h2>
     </header>
 
@@ -53,11 +53,18 @@
               </div>
 
               <button class="expand-item">Show more</button>
-              
+
               
               <div class="details secondary">
 
                 <p data-bound="description" class="blurb"><%= item.description %></p>
+
+                <ul class="meta">
+                  <li> <%= item.stars %> stars
+                  <li> Rated <%= item.mpaa %>
+                  <li> <%= item.length %> minutes
+                </ul>
+                
 
                 <% if (item.url) { %>
                 <a class="review-link" href="<%= item.url %>" target="_blank">Read full review</a>
@@ -90,26 +97,26 @@
 
     <ul class="credits constrained">
       <li> Developed by: Thomas Wilburn and Shirley Qiu
-      <li> Additional research: Mary Ann Gwinn
+      <li> Additional research: Moira Macdonald
     </ul>
 
     <footer class="constrained">
       <%= t.include("partials/_dontMiss.html", { data: [{
-        link: "http://www.seattletimes.com/entertainment/books/bill-gates-names-his-five-favorite-books-of-2016/",
-        image: "teasers/gates.jpg",
-        head: "Bill Gates names his five favorite books of 2016"
+        link: "https://www.seattletimes.com/entertainment/movies/seattles-historic-moviehouses/",
+        image: "quads/exit.jpg",
+        head: "Explore Seattle’s romantic — and vanishing — historic moviehouses"
       }, {
-        link: "http://www.seattletimes.com/entertainment/books/gift-these-12-paperbacks-to-yourself/",
-        image: "teasers/gifts.jpg",
-        head: "Gift these 12 paperbacks to yourself"
+        link: "https://www.seattletimes.com/entertainment/movies/readers-reminisce-about-seattles-vintage-moviehouses-sad-to-know-it-is-gone-but-happy-its-part-of-my-memory/",
+        image: "quads/theaters.jpg",
+        head: "Readers reminisce about Seattle’s vintage moviehouses"
       }, {
-        link: "http://www.seattletimes.com/entertainment/books/the-king-county-library-systems-five-top-books-of-2016/",
-        image: "teasers/king.jpg",
-        head: "The King County Library's five top books of 2016"
+        link: "https://www.seattletimes.com/entertainment/books/qa-tom-hanks-on-seattle-his-love-of-typewriters-and-the-free-press/",
+        image: "quads/hanks.jpg",
+        head: "Tom Hanks on Seattle, his love of typewriters, and the free press"
       }, {
-        link: "http://www.seattletimes.com/entertainment/books/bookstores-old-and-new-add-to-thriving-indie-scene/",
-        image: "teasers/bookstores.jpg",
-        head: "Bookstores old and new add to thriving indie scene"
+        link: "https://www.seattletimes.com/entertainment/movies/new-on-netflix-in-december-bright-guardians-of-the-galaxy-vol-2/",
+        image: "quads/bright.jpg",
+        head: "New on Netflix in December: ‘Bright,’ ‘Guardians of the Galaxy Vol. 2’"
       }]}) %>
     </footer>
 
