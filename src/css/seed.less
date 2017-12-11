@@ -82,9 +82,11 @@ input#show-filters {
   }
 
   @media @tablet {
-    display: none;
+    .boot & { 
+      display: none;
+    }
 
-    input#show-filters:checked + label + & {
+    .boot input#show-filters:checked + label + & {
       display: block;
     }
   }
